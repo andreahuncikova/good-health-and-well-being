@@ -9,6 +9,14 @@ body {
     background-color: var(--beige);
 }
 
+.btn {
+    background-color: var(--darkgreen);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent; /* Initially transparent */
