@@ -5,9 +5,20 @@
     --yellow: #F8FDB4;
   }
 
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 body {
     background-color: var(--beige);
     font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    color: var(--darkgreen);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .btn {
@@ -21,6 +32,7 @@ body {
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent; /* Initially transparent */
+    font-weight: 600;
   }
 
   .navbar a {
@@ -46,7 +58,7 @@ body {
   }
 
   .nav-link.active {
-    color: var(--yellow); 
-    font-weight: bold;
+    color: var(--lightgreen) !important; /* Change active link color */
+    transition: 0.2s;
   }
   

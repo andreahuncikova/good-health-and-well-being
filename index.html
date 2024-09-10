@@ -43,20 +43,22 @@
     
 
   <!-- Header Section -->
-<header class="vh-100 bg-cover bg-center position-relative" 
-style="background-image: url('images/hero-pic.jpg'); background-repeat: no-repeat; background-size: cover;">
-<div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
-<div class="text-center text-white">
-  <h1 class="display-3 fw-bold">GOOD HEALTH & <br> WELL-BEING</h1>
-  <a href="#about" class="btn button btn-lg mt-5">Find out more</a>
-</div>
-</div>
-</header>
+<!-- Header Section -->
+<header id="home" class="vh-100 position-relative overflow-hidden">
+    <img src="https://www.naturepositive.org/app/uploads/2024/01/person-with-nature-2000x1017.jpg" alt="Hero Image" class="img-fluid position-absolute w-100 h-100 object-fit-cover">
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+      <div class="text-center text-white">
+        <h1 class="display-3 fw-bold">GOOD HEALTH & <br> WELL-BEING</h1>
+        <a href="#about" class="btn button btn-lg mt-5">Find out more</a>
+      </div>
+    </div>
+  </header>
+  
 
   <!-- About Section -->
   <section id="about" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-5">About</h2>
+      <h2 class="text-center mb-5">ABOUT</h2>
       <div class="row">
         <div class="col-md-8">
           <p>Over the last 15 years, the number of childhood deaths has been cut in half. This proves that it is possible
@@ -100,7 +102,7 @@ style="background-image: url('images/hero-pic.jpg'); background-repeat: no-repea
     <!-- Goals Section -->
 <section id="goals" class="py-5">
   <div class="container">
-      <h2 class="text-center mb-5">Goals</h2>
+      <h2 class="text-center mb-5">GOALS</h2>
       <div class="row align-items-center mb-4">
           <div class="col-md-6">
               <h5 class="fw-bold">PREVENT AND TREAT SUBSTANCE ABUSE</h5>
@@ -152,7 +154,7 @@ style="background-image: url('images/hero-pic.jpg'); background-repeat: no-repea
     <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">How Can You Help?</h2>
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-3">
                     <div class="card h-100">
                         <div class="card-body">
@@ -172,10 +174,13 @@ style="background-image: url('images/hero-pic.jpg'); background-repeat: no-repea
                 </div>
                 <div class="col-md-3">
                     <div class="card h-100">
+                        <div class="card-body d-flex col-row mt-4 p-0 justify-content-center">
+                            <img src="images/Heart.svg" alt="Description of SVG" width="20" height="20" />
+                            <h5 class="card-title px-2">Vaccinate</h5>
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title text-success">Vaccinate</h5>
-                            <p class="card-text">Vaccinate yourself and your kids. Protecting your family from disease also
-                                aids public health.</p>
+                        <p class="card-text">Vaccinate yourself and your kids. Protecting your family from disease also
+                            aids public health.</p>
                         </div>
                     </div>
                 </div>
@@ -222,7 +227,7 @@ style="background-image: url('images/hero-pic.jpg'); background-repeat: no-repea
       let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
       sections.forEach(section => {
-        let sectionTop = section.offsetTop - 100;
+        let sectionTop = section.offsetTop - 50;
         let sectionHeight = section.offsetHeight;
         let sectionId = section.getAttribute("id");
 
