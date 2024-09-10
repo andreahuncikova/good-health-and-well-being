@@ -1,4 +1,14 @@
-/* Ensure navbar sticks to the top */
+:root {
+    --darkgreen: #576338;
+    --lightgreen: #AADB6C;
+    --beige: #F4F2DC;
+    --yellow: #F8FDB4;
+  }
+
+body {
+    background-color: var(--beige);
+}
+
 .navbar {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent; /* Initially transparent */
