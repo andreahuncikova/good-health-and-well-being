@@ -7,10 +7,11 @@
 
 body {
     background-color: var(--beige);
+    font-family: "Montserrat", sans-serif;
 }
 
 .btn {
-    background-color: var(--darkgreen);
+    background-color: var(--lightgreen);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -21,6 +22,15 @@ body {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     background-color: transparent; /* Initially transparent */
   }
+
+  .navbar a {
+    color: white; /* White text color before scrolling */
+}
+
+/* Change text color after scroll */
+.navbar.scrolled a {
+    color: black; /* Change to dark color after scrolling */
+}
   
   /* Navbar background when scrolled */
   .navbar.scrolled {
@@ -36,7 +46,7 @@ body {
   }
 
   .nav-link.active {
-    color: #28a745; /* Napríklad zelená farba */
+    color: var(--yellow); 
     font-weight: bold;
   }
   
