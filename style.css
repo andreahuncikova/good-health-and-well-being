@@ -17,10 +17,3 @@
     background-size: cover;
   }
   
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-    height: 1500px;
-    background-color: rgb(32, 75, 113);
-  }
