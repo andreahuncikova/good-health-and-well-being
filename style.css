@@ -61,4 +61,17 @@ h2 {
     color: var(--lightgreen) !important; /* Change active link color */
     transition: 0.2s;
   }
+
+  .custom-rounded {
+    border-top-left-radius: 60px; /* Nastavte podľa potreby */
+    border-bottom-left-radius: 60px; /* Nastavte podľa potreby */
+    border-top-right-radius: 0; /* Bez zaoblenia */
+    border-bottom-right-radius: 0; /* Bez zaoblenia */
+  }
   
+  .custom-rounded-2 {
+    border-top-left-radius: 0; /* Nastavte podľa potreby */
+    border-bottom-left-radius: 0; /* Nastavte podľa potreby */
+    border-top-right-radius: 60px; /* Bez zaoblenia */
+    border-bottom-right-radius: 60px; /* Bez zaoblenia */ 
+  }
