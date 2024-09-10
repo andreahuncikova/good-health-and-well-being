@@ -34,4 +34,9 @@ body {
     background: url('hero-image.jpg') no-repeat center center;
     background-size: cover;
   }
+
+  .nav-link.active {
+    color: #28a745; /* Napríklad zelená farba */
+    font-weight: bold;
+  }
   
