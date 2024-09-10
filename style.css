@@ -2,7 +2,7 @@
     --darkgreen: #576338;
     --lightgreen: #AADB6C;
     --beige: #F4F2DC;
-    --yellow: #F8FDB4;
+    --yellow: #feffc8;
   }
 
   *, *::before, *::after {
@@ -15,10 +15,30 @@ body {
 }
 
 h2 {
-    color: var(--darkgreen);
-    font-size: 2.5rem;
+    color: var(--lightgreen);
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
+}
+
+h3 {
+    color: var(--darkgreen);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    color: var(--darkgreen);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: medium;
+    line-height: 1.5;
 }
 
 .btn {
@@ -74,4 +94,8 @@ h2 {
     border-bottom-left-radius: 0; /* Nastavte podľa potreby */
     border-top-right-radius: 60px; /* Bez zaoblenia */
     border-bottom-right-radius: 60px; /* Bez zaoblenia */ 
+  }
+
+  .container-stats {
+    background-color: var(--yellow);
   }
