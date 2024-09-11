@@ -13,6 +13,9 @@ body {
     background-color: var(--beige);
     font-family: "Montserrat", sans-serif;
 }
+p {
+  text-align: justify;
+}
 
 h2 {
     color: var(--darkgreen);
