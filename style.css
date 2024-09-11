@@ -17,6 +17,10 @@ p {
   text-align: justify;
 }
 
+h1 {
+    color: var(--beige);
+}
+
 h2 {
     color: var(--darkgreen);
     font-size: 3rem;
@@ -45,16 +49,19 @@ p {
 }
 
 .btn {
-    background-color: var(--lightgreen);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    border-radius: 30px;
+  background-color: transparent;
+  color: var(--lightgreen);
+  padding: 12px 24px;
+  border-radius: 15px;
+  border: 2px solid var(--lightgreen);
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: var(--darkgreen);
+  background-color: var(--lightgreen);
+  color: white;
 }
 
 .navbar {
@@ -113,17 +120,21 @@ p {
 }
 
 h6 {
-    color: var(--lightgreen);
+    color: var(--darkgreen);
     font-size: 2.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .h7 {
-    color: var(--lightgreen);
+    color: var(--darkgreen);
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 1rem;
     padding-left: 10px;
 }
 
+.container-miso {
+    background-color: var(--yellow);
+    height: 2000px;
+}
